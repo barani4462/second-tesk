@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.gradiant{
+    background-image: radial-gradient(white 5%, bg-blue-700 15%, white 60%);
+   
+      }
+      
+    
+      
+.gradiant-one{
+    background-image: radial-gradient left to right(white 5%, rgb(37 99 235) 15%, white 30%);
+}
+.gradients-tow{
+    background-image: linear-gradient(to right,  rgb(96 165 250), rgb(30 64 175));
+}
+.gradiant-three{
+    background-image: linear-gradient(to bottom, rgb(239 246 255) , rgb(147 197 253));
+}
+.gradianfour{
+    background-image: linear-gradient(to right, rgb(96 165 250) , rgb(30 64 175) , rgb(192 38 211));
+}
+.gradiantfive{
+    background-image: linear-gradient(to right,rgb(192 38 211), rgb(96 165 250), rgb(30 64 175));
+};
